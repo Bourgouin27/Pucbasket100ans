@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body 
+{
+	position: relative;
+	margin: 0px;
+	background-image: url(image/bg-2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+header
+{
+
+}
+.entete{
+	display: flex;
+	justify-content: center;
+}
+.entete img{
+	height: 85%;
+	overflow: hidden;
+
+}
+.home
+{
+	position: fixed; 
+ top: 0; 
+ left: 0; 
+ min-width: 100%;
+ min-height: 100%;
+}
+
+
+.logo{
+	margin-top: 1vw;
+	margin-left: 1vw;
+	position: absolute;
+}
+h1
+{	
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -0.1em;
+	font-size: 5.9em;
+	background: rgb(95,68,145);
+	background: radial-gradient(circle, rgba(95,68,145,1) 0%, rgba(35,15,73,1) 100%); 
+	margin-top: 0px;
+
+}
+a
+{
+	text-decoration: none;
+    color: inherit;
+	
+}
+#nav{
+	display: flex;
+	background: white;
+	margin-top: 0px;
+	color: #4F406D;
+
+}
+.active{
+	background: rgb(95,68,145);
+	background: radial-gradient(circle, rgba(95,68,145,1) 0%, rgba(35,15,73,1) 100%); 
+	margin-top: 0px;
+	color: white;
+
+
+}
+.nav{
+	font-size: 25px;
+font-family: 'Roboto', sans-serif;
+	padding: 1em 2em;
+	text-align: center;
+	margin: auto;
+	text-align: center;
+	width: 20%;
+	height: 2.1VW;
+}
+.nav:hover{
+	color: #8674aa;
+}
+.log1 {
+	width: 1vw;
+	padding-right: 22vw;
+}
+.couv{
+margin: 7VW auto;
+width: 560PX;
+height: 315px;
+box-shadow: 1px 1px 25px 1px #646464;
+
+
+}
+#main{
+background-color: #ffffff;
+position: relative;
+margin: 0 auto;
+max-width: 72rem;
+box-shadow: 1px 1px 25px 1px #646464;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 3em;
+	height: auto; 
+    width: auto; 
+	text-align: justify;
+	display: flex;
+
+
+}
+article{
+	padding: 2em;
+	box-shadow: 1px 1px 25px 1px #CCC;
+margin: 0px 10px 10px 10px;
+}
+h3{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0px;
+}
+#main img{
+	height: auto; 
+    width: auto; 
+    max-width: 300PX;
+    overflow: hidden;
+    align-content: center;
+    padding: 1em 2.2em 0em;
+}
+.gallery{
+	columns: 3;
+}
+.image{
+
+}
+h2{
+	text-align: center;
+}
+p{
+	padding: 25px;
+}
